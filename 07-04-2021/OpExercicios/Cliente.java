@@ -15,6 +15,7 @@ public class Cliente {
 		this.cpf = cpf;
 		this.telefone = telefone;
 		this.tipoPagamento = tipoPagamento;
+		this.total_comprado = total_comprado;
 	}
 	public String getNome() {
 		return nome;
@@ -67,7 +68,7 @@ public class Cliente {
     }
 	public void printInfo() 
 	{
-	System.out.println("\n***Informações do Cliente***\nNome: "+nome+"\nCPF: "+cpf+"\nTelefone: "+telefone+"\nTipo de pagamento: "+tipoPagamento+"\nTotal de produtos comprados: "+this.formatarMoeda());
+	System.out.println("\n***InformaÃ§Ãµes do Cliente***\nNome: "+nome+"\nCPF: "+cpf+"\nTelefone: "+telefone+"\nTipo de pagamento: "+tipoPagamento+"\nTotal de produtos comprados: "+this.formatarMoeda());
 	}
 }
 	
